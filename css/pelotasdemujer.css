@@ -1,0 +1,38 @@
+/*general*/
+@charset "utf-8";
+@media all{
+   body{margin:0;padding:0;font:normal normal 400 1em/1.2 Arial, sans-serif;}
+   div{width:98%;display:inline-block;padding:.5em;}
+   button{background:#1E90FF;color:#FFF;border:.1em solid #1E90FF;border-radius:.2em;cursor:pointer;margin:0 1em;}
+   iframe{border:0;}
+   /*header*/
+   .header{text-align:center;}
+   .header .title .mainTitle{font-weight:600;font-size:2em;text-transform:capitalize;font-style:italic;display:none;}
+   .header .title .mainTitle .subTitle{font-weight:400;font-size:.6em;text-transform:none;font-style:normal;}
+   .header .banner{background-image:url('../images/banner.jpg');background-repeat:no-repeat;background-size:100% 100%;width:480px;height:131px;padding:0;cursor:pointer;}
+   /*content*/
+   .content{overflow:hidden;overflow-y:auto;width:70%;margin:0 12%;padding:0 2%;}
+   .content .fecha, .content .fecha .dia, .content .fecha .dia2, .content .fecha .mes, .content .fecha .logo{width:auto;padding:0;display:block;text-align:right;font-style:italic;}
+   .content .fecha{position:absolute;margin-left:-6%;margin-top:.5em;color:#a31a1a;}
+   .content .fecha .dia{font-size:2.2em;font-weight:500;}
+   .content .fecha .mes{font-size:.6em;}
+       .content .fecha .logo{margin-top:.5em;background-color:#fff;background-image:url('../images/logo.png');background-repeat:no-repeat;background-size:100% 100%;width:2.5em;height:2.5em;float:right;}
+   .content img{display:inline-block;}
+   .content iframe{border:none;}
+   .content p{text-align:justify;}
+   .content p.reportTitle{text-align:center;}
+   .content ul{list-style:none;padding:0;margin:0;}
+   /*actions*/
+   .actions button{float:right;margin-top:.5em;}
+   /*clases*/
+   .ie8_banner{background-image:none !important;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/banner.jpg',sizingMethod='scale');}
+   .ie8_logo{background-image:none !important;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/logo.png',sizingMethod='scale');}
+   .reportTitle{color:#a31a1a;font-size:1.6em;font-style:italic;border-bottom:.1em solid #ccc;}
+   .bolder{font-weight:600;}
+   .cursiva{font-style:italic;}
+   .autor{font-size:.6em;}
+   .fotoR{float:right;margin-left:1em;margin-top:1em;}
+   .fotoL{float:left;margin-right:1em;}
+   .center{text-align:center;}
+   .end{border-top:.1em solid #ccc;}
+}
